@@ -22,6 +22,8 @@ El script sigue un flujo de tres pasos:
 
 Al iniciar, solo hay que introducir el nombre de un producto o una URL. El sistema mostrará una ficha técnica detallada con el valor comercial y las caracteristicas del producto.
 
+![example image](example-image.png)
+
 ## Notas técnicas
 * El modelo está forzado a devolver null en campos donde no encuentre información verídica para evitar datos inventados.
 * Los precios se estandarizan a formato float en EUR para facilitar posteriores cálculos si se desea escalar el script.
